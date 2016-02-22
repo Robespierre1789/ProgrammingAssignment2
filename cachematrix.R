@@ -1,6 +1,7 @@
 ## You can change the Matriz and execute makeCacheMatrix, 
 ## but if it is equal to the last matrix used, when you next time you execute cacheSolve it will use 
 ## the chache and don`t calculate again
+#--------------------
 # Please try this example
 # AA<-matrix(7:10,2,2)
 # BB<-matrix(7:10,2,2)
@@ -8,7 +9,7 @@
 # cacheSolve(ACA)
 # ACA<-makeCacheMatrix(BB)
 # cacheSolve(ACA)
-
+#--------------------
 
 makeCacheMatrix <- function(x = matrix()) {
   #m <- NULL  This line is not necesary, because is the two matrix are equal, the function return m
